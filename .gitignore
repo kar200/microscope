@@ -1,0 +1,19 @@
+# Local dependencies & build artifacts
+.deps/
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+pkg/
+src/
+*.pkg.tar.*
+
+# Editor / agent folders & local runtime state
+.zcode/
+calibrations.json
+*.mkv
+*.mp4
+*.png
+*.jpg

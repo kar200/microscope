@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bresun-microscope"
+version = "0.1.0"
+description = "Live 4K60 view, hardware-accelerated video recording, PCB measurement & stitching for the Bresun HH-4K MAX USB microscope"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "numpy",
+    "opencv-python",
+    "PySide6>=6.5",
+]
+
+[project.scripts]
+bresun-microscope = "microscope_app.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["microscope_app*"]

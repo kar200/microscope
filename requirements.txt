@@ -1,0 +1,11 @@
+# Bresun Microscope app dependencies.
+#
+# Deps can be installed into ./.deps (plain directory, no venv) with:
+#   uv pip install --target .deps opencv-python
+# Run the app with:
+#   PYTHONPATH=.deps:. python3 -m microscope_app
+#
+# PySide6 and numpy come from the system Python (or pip/uv).
+opencv-python
+numpy
+PySide6>=6.5

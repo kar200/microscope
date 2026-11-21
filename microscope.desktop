@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Microscope
+Comment=Live 4K view, focus control & measurement — Bresun HH-4K MAX
+Exec=env QT_LOGGING_RULES=qt.qpa.wayland.textinput=false bresun-microscope
+Icon=camera-video
+Terminal=false
+Categories=AudioVideo;Video;Science;
